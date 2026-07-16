@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ilham AS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container navbar">
+
+            <div class="logo">
+                Portofolio<span>.</span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#sertifikat">Certificate</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="container hero-container">
+
+            <div class="hero-text">
+
+                <span class="tag">
+                    OPEN TO WORK
+                </span>
+
+                <h1>
+                    Hi, I'm
+                    <span>Ilham AS</span>
+                </h1>
+
+                <h2>
+                    Informatics Engineering Graduate
+                </h2>
+
+                <p>
+                    Fresh Graduate Teknik Informatika yang memiliki minat
+                    di bidang Machine Learning, Data Analysis,
+                    dan Web Development.
+                </p>
+
+                <div class="hero-btn">
+
+                    <a href="#project" class="btn-primary">
+                        Lihat Project
+                    </a>
+
+                    <a href="#kontak" class="btn-secondary">
+                        Hubungi Saya
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/profile.jpg" alt="Profile">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="section">
+
+        <div class="container">
+
+            <h2>Tentang Saya</h2>
+
+            <div class="about-box">
+
+                <p>
+                    Saya merupakan Fresh Graduate Teknik Informatika
+                    yang memiliki minat pada bidang Machine Learning,
+                    Data Analysis, dan Web Development.
+
+                    Skripsi yang saya kerjakan berfokus pada klasifikasi
+                    risiko stunting menggunakan algoritma Random Forest
+                    dan K-Nearest Neighbor.
+
+                    Selain pengalaman akademik, saya juga aktif dalam
+                    organisasi BEM yang membantu mengembangkan
+                    kemampuan kepemimpinan, komunikasi,
+                    dan kerja sama tim.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+
+        <div class="container">
+
+            <h2>Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>Machine Learning</h3>
+                    <p>Random Forest, KNN, Scikit-Learn</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Data Analysis</h3>
+                    <p>Python, Pandas, NumPy</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, PHP, Laravel</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Database</h3>
+                    <p>MySQL, SQL Server</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>3D Modelling</h3>
+                    <p>Archicad, Building Information Modeling (BIM), 3D Architectural Design</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="sertifikat" class="section">
+
+        <div class="container">
+
+            <h2>Certificate</h2>
+
+            <div class="certificate-grid">
+
+                <!-- Sertifikat BEM -->
+
+                <div class="certificate-card">
+
+                    <img src="assets/sertifikatbem.jpeg"
+                        alt="Sertifikat BEM"
+                        onclick="openLightbox(this.src)">
+
+                    <div class="certificate-content">
+
+                        <h3>Menteri Agama BEM</h3>
+
+                        <span class="certificate-org">
+                            Universitas Dinamika Bangsa
+                        </span>
+
+                        <p>
+                            Sertifikat apresiasi sebagai Menteri Agama Badan
+                            Eksekutif Mahasiswa periode 2024/2025.
+                            Berkontribusi dalam pelaksanaan program kerja
+                            keagamaan serta pengembangan karakter mahasiswa.
+                        </p>
+
+                        <small>
+                            🔍 Klik gambar untuk memperbesar
+                        </small>
+
+                    </div>
+
+                </div>
+
+                <!-- Sertifikat Dicoding -->
+
+                <div class="certificate-card">
+
+                    <img src="assets/sertifikatdicoding.png"
+                        alt="Sertifikat Dicoding"
+                        onclick="openLightbox(this.src)">
+
+                    <div class="certificate-content">
+
+                        <h3>Flutter untuk Pemula</h3>
+
+                        <span class="certificate-org">
+                            Dicoding Academy
+                        </span>
+
+                        <p>
+                            Sertifikat kompetensi pengembangan aplikasi
+                            mobile menggunakan Flutter yang mencakup
+                            pembuatan UI, widget, navigasi halaman,
+                            dan dasar pemrograman Dart.
+                        </p>
+
+                        <small>
+                            🔍 Klik gambar untuk memperbesar
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECT -->
+    <section id="project" class="section">
+
+        <div class="container">
+
+            <h2>Project</h2>
+
+            <div class="project-grid">
+
+                <a href="project-stunting.html" class="project-link">
+
+                    <div class="project-card">
+
+                        <img src="assets/stunting.png" alt="Stunting">
+
+                        <h3>
+                            Sistem Klasifikasi Risiko Stunting
+                        </h3>
+
+                        <p>
+                            Machine Learning menggunakan
+                            Random Forest dan KNN.
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <a href="project-soccer.html" class="project-link">
+
+                    <div class="project-card">
+
+                        <img src="assets/soccer.jpg" alt="Mini Soccer">
+
+                        <h3>
+                            Sistem Reservasi Mini Soccer
+                        </h3>
+
+                        <p>
+                            Website reservasi lapangan
+                            berbasis PHP dan MySQL.
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <a href="project-hotel.html" class="project-link">
+
+                    <div class="project-card">
+
+                        <img src="assets/3D.jpg" alt="Hotel">
+
+                        <h3>
+                            Desain 3D Hotel
+                        </h3>
+
+                        <p>
+                            Pemodelan bangunan menggunakan
+                            Archicad.
+                        </p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- KONTAK -->
+   <section id="kontak" class="section">
+
+    <div class="container">
+
+        <h2>Kontak</h2>
+
+        <div class="contact-box">
+
+            <p>
+                📧 Email :
+                <a href="mailto:arramadhanilham@gmail.com">
+                    arramadhanilham@gmail.com
+                </a>
+            </p>
+
+            <p>
+                📱 WhatsApp :
+                <a href="https://wa.me/6289624891715" target="_blank">
+                    089624891715
+                </a>
+            </p>
+
+            <p>
+                💼 LinkedIn :
+                <a href="https://www.linkedin.com/in/ilhamas" target="_blank">
+                    linkedin.com/in/ilhamas
+                </a>
+            </p>
+
+            <p>
+                💻 GitHub :
+                <a href="https://github.com/ilhamas" target="_blank">
+                    github.com/ilhamas
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Ilham AS | Portfolio Website</p>
+    </footer>
+
+<!-- LIGHTBOX -->
+
+<div id="lightbox" class="lightbox">
+
+    <span class="close-lightbox"
+          onclick="closeLightbox()">
+          &times;
+    </span>
+
+    <img id="lightbox-img">
+
+</div>
+
+<script>
+
+function openLightbox(imageSrc){
+
+    document.getElementById("lightbox").style.display="flex";
+
+    document.getElementById("lightbox-img").src=imageSrc;
+
+}
+
+function closeLightbox(){
+
+    document.getElementById("lightbox").style.display="none";
+
+}
+
+</script>
+
+</body>
+
+</html>
